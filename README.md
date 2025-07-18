@@ -2,7 +2,7 @@
 
 This is a simple and responsive restaurant website built using **HTML**, **CSS**, and **JavaScript**. The project includes interactive features such as a toggleable search bar, shopping cart, and favorites section. Users can add or remove items dynamically with a seamless user experience.
 
-Visit Website: 
+Visit Website: https://jeya-subha.github.io/Food-Website/
 ---
 
 ## 🌟 Features
