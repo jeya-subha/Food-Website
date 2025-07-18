@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awsome file link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- css file link -->
+    <link rel="stylesheet" href="src/css/styel.css" />
+    <title>Responsive Restaurant Website</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <a href="#" class="logo">Food.</a>
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-btn"></i>
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-shopping-cart" id="cart-btn"></i>
+        <i class="fas fa-heart" id="fav-btn"></i>
+      </div>
+      <!-- search form -->
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <!-- sopping cart -->
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/home-img-1.png" alt="" />
+          <div class="content">
+            <h3>spicy noodlees</h3>
+            <span class="price">₹119</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/home-img-2.png" alt="" />
+          <div class="content">
+            <h3>fried chiken</h3>
+            <span class="price">₹149</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : ₹268</div>
+        <a href="#" class="btn">checkout</a>
+      </div>
+      <!-- favorite form -->
+      <form action="" class="fav-form">
+        <h3 class="head">favorite</h3>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/home-img-2.png" alt="" />
+          <div class="content">
+            <h3>fried chiken</h3>
+            <span class="price">₹149</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/home-img-3.png" alt="" />
+          <div class="content">
+            <h3>hot pizza</h3>
+            <span class="price">₹229</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+      </form>
+    </header>
+    <!-- header ends -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>get foods by <span>easy</span> payment</h3>
+        <p>
+          Enjoy your favorite meals with fast and secure payment options. We accept UPI, credit/debit cards, net banking, and even cash on delivery. No delays, no hassle — just simple, convenient payments every time you order with us!
+        </p>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- dish section start -->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">special <span>dishes</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="src/img/dish-1.png" alt="" />
+          <h3>Chicken Burger</h3>
+          <span>₹129</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="src/img/dish-2.png" alt="" />
+          <h3>Chicken Nuggets</h3>
+          <span>₹99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="src/img/dish-3.png" alt="" />
+          <h3>Grilled Chicken</h3>
+          <span>₹99</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="src/img/dish-4.png" alt="" />
+          <h3>Cheesy Pizza</h3>
+          <span>₹199</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+       
+      </div>
+    </section>
+    <!-- dish section ends -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why <span>choose us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="src/img/about-img.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>best food in the country</h3>
+          <p>
+           we serve mouth-watering dishes made from fresh ingredients, rich spices, and traditional recipes that bring out unforgettable flavors. Whether you're craving a crispy burger, spicy noodles, grilled chicken, or cheesy pizza — we have something for every food lover.
+          </p>
+          <p>
+            Our chefs are passionate about food and committed to quality. From quick bites to full meals, every dish is crafted with care to ensure great taste and satisfaction. Come, enjoy the best food experience in town with friendly service and a cozy atmosphere!
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>fast delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>easy payment</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+      <!-- about section ends -->
+    </section>
+
+<div style="height: 10px;"></div>
+
+    <!-- footer start -->
+    <footer class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>loaction</h3>
+          <a href="#">Chennai</a>
+          <a href="#">Thoothukudi</a>
+          <a href="#">Madurai</a>
+        
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">home</a>
+          <a href="#dishes">dishes</a>
+          <a href="#about">about</a>
+        </div>
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+9876 555 555</a>
+          <a href="#">example@gmail.com</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">intagram</a>
+        </div>
+      </div>
+      
+    </footer>
+    <!-- footer ends -->
+
+   
+    <!-- js file link -->
+    <script src="src/script/script.js"></script>
+  </body>
+</html>
